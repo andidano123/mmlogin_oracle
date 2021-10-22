@@ -1,0 +1,24 @@
+{
+	"name": "sss",
+	"version": "2.0.0",
+	"author": "",
+	"description": "MetaMast Login And Oracle",
+	"license": "MIT",
+	"private": true,
+	"repository": "https://github.com/heminwang123/mmlogin_oracle.git",
+	"scripts": {
+		"deploy:backend": "git push heroku `git subtree split --prefix packages/backend master`:master",
+		"deploy:frontend": "cd packages/frontend && yarn build && gh-pages -d build",
+		"lint": "tsc --noEmit && eslint . --ext js,ts,tsx",
+		"start:backend": "cd packages/backend && yarn start",
+		"start:frontend": "cd packages/frontend && yarn start",
+		"start": "run-p -l start:*"
+	},
+	"devDependencies": {
+		"@amaurym/config": "^1.3.4",
+		"gh-pages": "^3.2.3",
+		"npm-run-all": "^4.1.5",
+		"typescript": "^4.1.2"
+	},
+	"dependencies": {}
+}
