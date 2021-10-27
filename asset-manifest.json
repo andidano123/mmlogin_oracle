@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/mmlogin_oracle/static/css/main.f5df24a4.chunk.css",
-    "main.js": "/mmlogin_oracle/static/js/main.e76fe990.chunk.js",
-    "main.js.map": "/mmlogin_oracle/static/js/main.e76fe990.chunk.js.map",
+    "main.js": "/mmlogin_oracle/static/js/main.e3348cbc.chunk.js",
+    "main.js.map": "/mmlogin_oracle/static/js/main.e3348cbc.chunk.js.map",
     "runtime-main.js": "/mmlogin_oracle/static/js/runtime-main.83ee5274.js",
     "runtime-main.js.map": "/mmlogin_oracle/static/js/runtime-main.83ee5274.js.map",
-    "static/js/2.e5de07b8.chunk.js": "/mmlogin_oracle/static/js/2.e5de07b8.chunk.js",
-    "static/js/2.e5de07b8.chunk.js.map": "/mmlogin_oracle/static/js/2.e5de07b8.chunk.js.map",
+    "static/js/2.5dae5187.chunk.js": "/mmlogin_oracle/static/js/2.5dae5187.chunk.js",
+    "static/js/2.5dae5187.chunk.js.map": "/mmlogin_oracle/static/js/2.5dae5187.chunk.js.map",
     "index.html": "/mmlogin_oracle/index.html",
     "static/css/main.f5df24a4.chunk.css.map": "/mmlogin_oracle/static/css/main.f5df24a4.chunk.css.map",
-    "static/js/2.e5de07b8.chunk.js.LICENSE.txt": "/mmlogin_oracle/static/js/2.e5de07b8.chunk.js.LICENSE.txt"
+    "static/js/2.5dae5187.chunk.js.LICENSE.txt": "/mmlogin_oracle/static/js/2.5dae5187.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.83ee5274.js",
-    "static/js/2.e5de07b8.chunk.js",
+    "static/js/2.5dae5187.chunk.js",
     "static/css/main.f5df24a4.chunk.css",
-    "static/js/main.e76fe990.chunk.js"
+    "static/js/main.e3348cbc.chunk.js"
   ]
 }
