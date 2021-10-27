@@ -6,7 +6,7 @@
 	"license": "MIT",
 	"main": "lib",
 	"private": true,
-	"repository": "https://github.com/amaurym/login-with-metamask-demo.git",
+	"repository": "https://github.com/heminwang123/mmlogin_oracle.git",
 	"scripts": {
 		"build": "tsc",
 		"dev": "nodemon --watch 'src/**/*.ts' --exec 'yarn start'",
