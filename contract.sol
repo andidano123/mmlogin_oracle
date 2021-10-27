@@ -28,9 +28,9 @@ contract HeMin_Test_Oracle is usingProvable {
         require (pendingQueries[myid] == true);
         ETHUSD = result;
         LogPriceUpdated(result);
-        delete pendingQueries[myid]; 
-        updateCount = updateCount + 1;
+        delete pendingQueries[myid]; // This effectively marks the query id as processed.
         priceArray.push(Item(now, result, msg.sender));
+        updateCount = updateCount + 1;
     }
 
     function updatePrice() payable {

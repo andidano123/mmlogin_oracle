@@ -9,3 +9,6 @@ https://kovan.etherscan.io/tx/0xa22cc53d780ff84eb7f72571554008ac97ca487bee3d40eb
 Rinkeby 
 contract:
 0x467A4544fD499DA2D352D6feE0C8f48b1E0a88ec
+
+Kovan:
+0x78FF0106A6fc3846161DeCA5bb963510d9386100applicable for Post BYZANTIUM blocks only

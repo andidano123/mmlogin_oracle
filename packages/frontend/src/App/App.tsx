@@ -5,7 +5,7 @@ import React, { useEffect, useState } from 'react';
 import { Login } from '../Login';
 import { Profile } from '../Profile/Profile';
 import { Auth } from '../types';
-import logo from './logo.svg';
+import logo from './eth.png';
 
 const LS_KEY = 'login-with-metamask:auth';
 
@@ -40,7 +40,7 @@ export const App = (): JSX.Element => {
 			<header className="App-header">
 				<img src={logo} className="App-logo" alt="logo" />
 				<h1 className="App-title">
-					Welcome to Login with MetaMask Demo
+					Welcome to SupraOracles Test Project
 				</h1>
 			</header>
 			<div className="App-intro">
